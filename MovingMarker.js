@@ -329,18 +329,23 @@ L.Marker.MovingMarker = L.Marker.extend({
 
             if (this._currentColor == 0) {
                 this.setLatLng(p).setIcon(blueIcon);
+                console.log('blueIcon')
 
             } else if (this._currentColor == 1) {
                 this.setLatLng(p).setIcon(greenIcon);
+                console.log('greenIcon')
 
             } else if (this._currentColor == 2) {
                 this.setLatLng(p).setIcon(yellowIcon);
+                console.log('yellow icon')
 
             } else if (this._currentColor == 3) {
                 this.setLatLng(p).setIcon(glossygreenIcon);
+                console.log('glossygreenIcon')
             }
             else {
                 this.setLatLng(p).setIcon(redIcon);
+                console.log('redIcon')
             }
             // this.setLatLng(p).setIcon(yellowIcon1);
         }
