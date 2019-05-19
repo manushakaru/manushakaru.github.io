@@ -9,11 +9,11 @@ var LeafIcon = L.Icon.extend({
 });
 
 
-var pinkIcon        = new LeafIcon({iconUrl: 'pink.png'});
-var orangeIcon      = new LeafIcon({iconUrl: 'orange.png'});
-var blueIcon        = new LeafIcon({iconUrl: '1024px-Light_Blue_Circle.svg.png'});
-var greenIcon       = new LeafIcon({iconUrl: '79-796559_green-fake-bullet-green-circle-transparent-png.png'});
-var yellowIcon      = new LeafIcon({iconUrl: 'yellow.png'});
-var glossygreenIcon = new LeafIcon({iconUrl: 'glossy-green.png'});
-var redIcon         = new LeafIcon({iconUrl: 'red.png'});
+var pinkIcon        = new LeafIcon({iconUrl: 'js/pink.png'});
+var orangeIcon      = new LeafIcon({iconUrl: 'js/orange.png'});
+var blueIcon        = new LeafIcon({iconUrl: 'js/1024px-Light_Blue_Circle.svg.png'});
+var greenIcon       = new LeafIcon({iconUrl: 'js/79-796559_green-fake-bullet-green-circle-transparent-png.png'});
+var yellowIcon      = new LeafIcon({iconUrl: 'js/yellow.png'});
+var glossygreenIcon = new LeafIcon({iconUrl: 'js/glossy-green.png'});
+var redIcon         = new LeafIcon({iconUrl: 'js/red.png'});
 
