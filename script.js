@@ -44,7 +44,7 @@ map = new L.Map('map', {
 
 
 // create a new tile layer
-var tileUrl = 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+var tileUrl = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
   layer = new L.TileLayer(tileUrl,
     {
       attribution: 'Maps © <a href=\"www.openstreetmap.org/copyright\">OpenStreetMap</a> ',
