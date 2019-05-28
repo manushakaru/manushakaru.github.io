@@ -286,14 +286,17 @@ $(function () {
                   document.body.appendChild(link);
                   link.click();
                   document.body.removeChild(link);
+                  img.remove();
                 }
 
                 // When the user clicks anywhere outside of the modal, close it
                 window.onclick = function (event) {
                   if (event.target == modal) {
-                    modal.style.display = "none";
                     img.remove();
                     $('#snap_btn').disabled  = false;
+                    modal.style.display = "none";
+                    
+                    
                   }
                 }
 
