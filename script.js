@@ -240,6 +240,7 @@ $(function () {
     {
       click: function () {
         // Get the modal
+        $('#snap_btn').disabled  = true;
         var node = document.body;
         var promise = new Promise(function (resolve, reeject) {
           setTimeout(() => {
@@ -276,6 +277,7 @@ $(function () {
                 span.onclick = function () {
                   modal.style.display = "none";
                   img.remove();
+                  $('#snap_btn').disabled  = false;
                 }
                 dwnbtn.onclick = function () {
                   var link = document.createElement('a');
@@ -291,6 +293,7 @@ $(function () {
                   if (event.target == modal) {
                     modal.style.display = "none";
                     img.remove();
+                    $('#snap_btn').disabled  = false;
                   }
                 }
 
