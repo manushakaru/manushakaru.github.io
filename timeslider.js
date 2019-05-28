@@ -86,11 +86,6 @@ var label = slider.append("text")
 
 forwardButton.on('click',function(){
   speed *= 2;
-  // if(speed >= 2){
-  //   backwardButton_.attr("disabled", false)
-  // }else{
-  //   backwardButton_.attr("disabled", true)
-  // }
   speedtxt.text('X'+speed)
   console.log(speed)
   if(playButton.text() == 'Play'){
@@ -185,5 +180,6 @@ function update(h) {
   label
     .attr("x", x(h))
     .text(formatDate(h));
+    $('.readableTime').text(formatDate(h));
 }
 d3.selectAll("text").style("fill", "white");

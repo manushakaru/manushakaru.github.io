@@ -535,5 +535,15 @@ li>div:hover {
 	display: none;
 }
 
-
- 
+.dateTimeBox {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 83%;
+    left: 88%;
+    color: #7fc3ff;
+    font-size: 26px;
+}
+.time{
+	font-size: 20px;
+}
