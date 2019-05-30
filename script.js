@@ -8,12 +8,21 @@ uploadButton.addEventListener('click', (e) => {
 });
 
 realInput.addEventListener('change', () => {
+  rfile = $('#real-input')
+  if(realInput.files.length>1){
+    // console.log('file count')
+    // console.log(realInput.files.length)
+    fileInfo.innerHTML = realInput.files.length + ' files ';
+  }
+  else{
+    // console.log( realInput.value.split(/\\|\//))
   const name = realInput.value.split(/\\|\//).pop();
   const truncated = name.length > 20
     ? name.substr(name.length - 20)
     : name;
 
   fileInfo.innerHTML = truncated;
+  }
 });
 
 //load file input when loading page
