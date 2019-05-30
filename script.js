@@ -286,7 +286,7 @@ $(function () {
                   document.body.appendChild(link);
                   link.click();
                   document.body.removeChild(link);
-                  img.remove();
+                  
                 }
 
                 // When the user clicks anywhere outside of the modal, close it
